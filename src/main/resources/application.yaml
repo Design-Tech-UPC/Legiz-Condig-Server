@@ -1,5 +1,5 @@
 server:
-  port: 3000
+  port: 30000
 spring:
   cloud:
     config:
@@ -8,4 +8,4 @@ spring:
           default-label: main
           uri: https://github.com/Design-Tech-UPC/Legiz-Config-Data.git
     application:
-      name: config-service
+      name: main
